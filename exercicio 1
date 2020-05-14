@@ -11,13 +11,7 @@
 </head>
 <body>
 
-<div class="container-fluid">
-  <h1>Basic Grid Structure</h1>
-  <p>Resize the browser window to see the effect.</p>
-  <p>The first, second and third row will automatically stack on top of each other when the screen is less than 576px wide.</p>
-  
-  <div class="container-fluid">
-    <!-- Control the column width, and how they should appear on different devices -->
+
     <div class="row">
       <div class="col-sm-1" style="background-color:deeppink; height:500px;">01011</div>
       <div class="col-sm-2" style="background-color:darkviolet;">01001110010010</div>

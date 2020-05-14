@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  header{
+  	background-color:LightGreen;
+    border: 2px solid black;
+  	border-radius: 5px; 
+    height: 100px;
+    
+  }
+  aside{
+  	background-color:LightGreen;
+    border: 2px solid black;
+  	border-radius: 5px; 
+    height: 100px;
+    
+  }
+  section{
+  	background-color:LightGreen;
+    border: 2px solid black;
+  	border-radius: 5px; 
+    height: 250px;
+    
+  }
+  footer{
+  	background-color:LightGreen;
+    border: 2px solid black;
+  	border-radius: 5px; 
+    height: 100px;
+  p{
+  	position: relative;
+    top:35px;
+  	text-align: center; 
+    vertical-align: middle;
+  }
+  div{
+  	height: 250px;
+  }
+  </style>
+</head>
+<body>
+<main class="container-fluid">
+<header class="col-12">
+	<p>header</p>
+</header>
+<article class="row">
+<div class="col-2">
+<aside>
+	<p>aside</p>
+</aside>
+<aside>
+	<p>aside</p>
+</aside>
+</div>
+<section class="col-8">
+<p>section</p>
+</section>
+<div class="col-2">
+<aside>
+	<p>aside</p>
+</aside>
+<aside>
+	<p>aside</p>
+</aside>
+</div>
+</article>
+<footer class="col-12">
+	<p>footer</p>
+</footer>
+</main>
+  
+</body>
+</html>
